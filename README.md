@@ -3,6 +3,9 @@
 # Group members: Bo Zheng Ma, Rick Zhang, Warisa Khaophong 
 
 
+## Description:
+This is my ENSF 692 group project, where myself and my teammates manipulated data using numpy and pandas to present trends in data.
+
 ## Outline:
 * Design and document a terminal-based Python application
 * Select, import, and manipulate a set of data
@@ -11,6 +14,7 @@
 * Process data according to user input
 * Operate on data in Pandas and NumPy
 * Display data using Matplotlib
+* <ins> Project specifications are located in Project README file. </ins>
 
 
 ## Goal:
@@ -32,8 +36,15 @@
 ## How to run the program:
 * Clone the repository onto your local machine
 * Ensure that python along with pandas and matploblib are installed properly.
-    * Change working directory to ensf-692-project-super-awesometeam
+    * Change working directory
     * python 692Project.py
+
+# Sample Execution:
+![](/execution_sample/execution_1.PNG)
+![](/execution_sample/execution_2.PNG)
+![](/execution_sample/execution_3.PNG)
+![](/execution_sample/execution_4.PNG)
+
 
 ## Input:
 * The program will process datasets from 'src' folder
@@ -46,3 +57,7 @@
 
 ## Documentation/Report:
 * The report is located in this repository along with the powerpoint presentation.
+
+## Additional files:
+* ImportCSV.py will import the datasets into dataframes
+* plotGraphs, previously named matplotlib_for_692_project, will create pivot tables and plot graphs

@@ -15,7 +15,7 @@
 
 from ImportCSV import process_str_csv_file
 from ImportCSV import process_float_csv_file
-from matplotlib_for_692_project import plot_digital_infrastructure, plot_economy, plot_energy, plot_life_quality, plot_technology
+from plotGraphs import plot_digital_infrastructure, plot_economy, plot_energy, plot_life_quality, plot_technology
 
 
 import pandas as pd
